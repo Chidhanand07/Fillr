@@ -1,8 +1,8 @@
-# FormForge
+# Fillr
 
 **Build forms. Upload documents. Let AI fill the gaps.**
 
-FormForge is an AI-powered form builder and document autofill tool. Define a custom form schema, upload a PDF or image, and Claude automatically extracts and populates matching field values. Review, edit, and export the result — no server required.
+Fillr is an AI-powered form builder and document autofill tool. Define a custom form schema, upload a PDF or image, and Claude automatically extracts and populates matching field values. Review, edit, and export the result — no server required.
 
 ---
 
@@ -81,7 +81,7 @@ The key variable used in this project is `NIA_API_KEY`.
 ## File Structure
 
 ```
-FormForge/
+Fillr/
 ├── index.html   — the complete application (open this in a browser)
 ├── PROMPT.md    — system prompt used by the AI extraction engine
 ├── CLAUDE.md    — developer spec and API configuration reference
