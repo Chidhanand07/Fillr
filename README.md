@@ -42,19 +42,6 @@ Fillr is an AI-powered form builder and document autofill tool. Define a custom 
 
 ---
 
-## Getting an API Key
-
-1. Go to [console.anthropic.com](https://console.anthropic.com).
-2. Sign in or create an account.
-3. Navigate to **API Keys** and create a new key.
-4. Paste it into the **API Key** field in Step 2.
-
-The key variable used in this project is `NIA_API_KEY`.
-
-> **Security note:** This app calls the Anthropic API directly from your browser. Your API key is held in memory only for the current session and is never stored on disk or sent to any server other than `api.anthropic.com`. For production use, proxy the API call through a backend server.
-
----
-
 ## Built-in Templates
 
 | Template        | Fields |
@@ -83,8 +70,6 @@ The key variable used in this project is `NIA_API_KEY`.
 ```
 Fillr/
 ├── index.html   — the complete application (open this in a browser)
-├── PROMPT.md    — system prompt used by the AI extraction engine
-├── CLAUDE.md    — developer spec and API configuration reference
 └── README.md    — this file
 ```
 
